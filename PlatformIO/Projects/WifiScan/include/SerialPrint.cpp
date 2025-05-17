@@ -4,9 +4,9 @@
 
 void serialPrint(int n)
 {
-    Serial.print("***** ");
+    Serial.print("===== ");
     Serial.print(n);
-    Serial.println(" networks found *****");
+    Serial.println(" networks found =====");
     Serial.println("Nr | SSID                             | RSSI | CH | Encryption");
     for (int i = 0; i < n; ++i)
     {

@@ -28,7 +28,7 @@ void loop() {
   if (n == 0) {
     Serial.println("no networks found");
   } else {
-    serialPrint(n); // lib
+    serialPrint(n); // include folder
   }
   Serial.println("");
 
